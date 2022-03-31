@@ -3,17 +3,43 @@ import java.util.Scanner;
 
 
 /**
- * @author AlfredoIFP
  * Clase que permite conocer la nota final y determinar si es suspenso o aprobado.
- * Pide al usuario ingresar las notas.
- * Comprueba que sean notas válidas.
- * Calcula la nota definitia.
- * Muestra las notas, el acumulado y la nota definitiva.
- * Muestra si es aprobado o suspenso.
+ * <ul>
+ * <li>Pide al usuario ingresar las notas.</li>
+ * <li>Comprueba que sean notas válidas.</li>
+ * <li>Calcula la nota definitia.</li>
+ * <li>Muestra las notas, el acumulado y la nota definitiva.</li>
+ * <li>Muestra si es aprobado o suspenso.</li>
+ * </ul>
+ * @author AlfredoIFP
  */
 public class notas {
-	//declaración de variables de clase
+
+	//Atributos
+	
+	/**
+	 * Nota 1
+	 */
+	/**
+	 * Nota 2
+	 */
+	/**
+	 * Nota 3
+	 */
 	double nota1, nota2, nota3;
+	
+	/**
+	 * Nota Acumulada 1
+	 */
+	/**
+	 * Nota Acumulada 2
+	 */
+	/**
+	 * Nota Acumulada 3
+	 */
+	/**
+	 * Nota Definitiva
+	 */
 	double notaAcumulada1, notaAcumulada2, notaAcumulada3, notaDefinitiva;
 	//Scanner
 	Scanner entrada = new Scanner(System.in);
@@ -125,7 +151,11 @@ public class notas {
 		}
 		
 		
-	 public static void main(String[] args) {
+	 /**
+	 * Método main que ejecuta el programa
+	 * @param args
+	 */
+	public static void main(String[] args) {
 		// Creación de la clase notas
 		notas fc= new notas();
 		
