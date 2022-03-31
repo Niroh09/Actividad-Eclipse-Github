@@ -45,7 +45,6 @@ public class notas {
 	Scanner entrada = new Scanner(System.in);
 	
 
-	
 	/**
 	 * Método que pide al usuario ingresar la nota 1, 2 y 3 para almacenarlas en las variables de clase. 
 	 */
@@ -56,9 +55,7 @@ public class notas {
 		System.out.print("ingrese nota 1: ");
 		
 		nota1= entrada.nextDouble();
-
-		
-		
+	
 		System.out.print("ingrese nota 2: ");
 		
 		nota2= entrada.nextDouble();
@@ -94,10 +91,7 @@ public class notas {
 		}else {
 			System.out.println(" nota3 correcta");
 		}
-		
 			
-		
-		
 	}
 	
 	
